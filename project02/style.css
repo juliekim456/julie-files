@@ -1,0 +1,23 @@
+h2, h3 {
+    color: tomato; 
+    font-size: 25px;
+}
+
+body {
+    background-color: lightcyan;
+    color: darkcyan;
+    text-align: center;
+}
+
+.wrapper {
+    border: 1px;
+    border-radius: 10px;
+    background-color: #fff4e6;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    row-gap: 2em;
+    padding: 50px;
+    margin: 20px;
+  }
+  
