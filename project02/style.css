@@ -14,7 +14,7 @@ body {
     border-radius: 10px;
     background-color: #fff4e6;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 5px;
     row-gap: 2em;
     padding: 50px;
