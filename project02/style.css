@@ -12,12 +12,12 @@ body {
 .wrapper {
     border: 1px;
     border-radius: 10px;
-    background-color: #fff4e6;
+    background-color: lightcyan;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 5px;
     row-gap: 2em;
     padding: 50px;
     margin: 20px;
-  }
+  } 
   

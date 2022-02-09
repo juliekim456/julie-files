@@ -1,5 +1,25 @@
+h1 {
+    text-align: center;
+}
 body {
     background-color: lightcyan;
     font-family: 'Caveat', cursive;
     color: tomato;
+}
+.box1 {
+    float:left;
+    width: 750px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 50px;
+    border: 15px solid darkcyan;
+}
+
+.box2 {
+    float:right;
+    width: 750px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 50px;
+    border: 15px solid darkcyan;
 }
