@@ -1,25 +1,58 @@
 h1 {
     text-align: center;
+    font-size: 90px;
+}
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+    text-decoration-line: underline;
 }
 body {
     background-color: lightcyan;
     font-family: 'Caveat', cursive;
     color: tomato;
 }
-.box1 {
-    float:left;
-    width: 750px;
-    margin-left: 10px;
-    margin-top: 10px;
-    padding: 50px;
-    border: 15px solid darkcyan;
+
+li {
+    font-size: 30px;
 }
 
-.box2 {
-    float:right;
-    width: 750px;
-    margin-right: 10px;
-    margin-top: 10px;
-    padding: 50px;
-    border: 15px solid darkcyan;
+.container {
+    display: flex;
+    background: lightblue;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }
+
+.item {
+    width: 180px;
+    height: 100px;
+    background: lightblue;
+    border: 8px solid darkcyan;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container2 {
+    display: flex;
+    background: lightblue;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .item2 {
+    width: 500px;
+    height: 300px;
+    background: lightblue;
+    border: 8px solid darkcyan;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
