@@ -1,23 +1,115 @@
-h2, h3 {
-    color: tomato; 
-    font-size: 25px;
+header {
+    background-color: black;
+    padding: 5px;
+}
+
+h2 {
+    color: white; 
+    font-size: 80px;
+    line-height: 5px;
+}
+
+h3 {
+    color: white;
+    font-size: 30px;
 }
 
 body {
-    background-color: lightcyan;
+    background-color: whitesmoke;
     color: darkcyan;
     text-align: center;
+    font-size: 15px;
 }
 
 .wrapper {
     border: 1px;
     border-radius: 10px;
-    background-color: lightcyan;
+    background-color: whitesmoke;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 5px;
     row-gap: 2em;
     padding: 50px;
-    margin: 20px;
+    margin: 10px;
+    justify-items: center;
   } 
+
+img {
+      max-width: 100%;
+      max-height: 100%;
+  }
   
+.box1 {
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box; 
+    display: block;
+    max-width: fit-content;
+    max-height: fit-content;
+}  
+
+.img_description {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background: white;
+    color: black;
+    visibility: hidden;
+    opacity: 0;
+    display: block;
+    font-size: 30px;
+    padding: 10px;
+    padding-top: 115px;
+    font-family: 'Caveat', cursive;
+
+
+    transition: opacity .2s, visibility .2s;
+}
+
+.box1:hover .img_description {
+    visibility: visible;
+    opacity: .75;
+  }
+
+.box2 {
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box; 
+    display: block;
+    max-width: fit-content;
+    max-height: fit-content;
+} 
+.box2:hover .img_description {
+    visibility: visible;
+    opacity: .75;
+  }
+
+.box3 {
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box; 
+    display: block;
+    max-width: fit-content;
+    max-height: fit-content;
+} 
+.box3:hover .img_description {
+    visibility: visible;
+    opacity: .75;
+  }
+
+.box4 {
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box; 
+    display: block;
+    max-width: fit-content;
+    max-height: fit-content;
+} 
+.box4:hover .img_description {
+    visibility: visible;
+    opacity: .75;
+  }
+
+ 
