@@ -6,8 +6,9 @@ h1 {
 h2 {
     font-size: 50px;
     text-align: center;
-    text-decoration-line: underline;
+    text-decoration: underline;
 }
+
 body {
     background-color: lightcyan;
     font-family: 'Caveat', cursive;
@@ -54,5 +55,27 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+button {
+    border: none;
+    background: none;
+    color: darkcyan;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 5px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 500ms ease; 
+    font-family: 'Caveat', cursive;
+    text-align: left;
+    text-decoration: none;
+  }
+
+button:hover{
+    color: #ff7a59;
+    border: #ff7a59 solid 1px;
+    background:white;
+    font-size: 35px;
   }
   
