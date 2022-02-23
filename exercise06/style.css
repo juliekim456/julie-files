@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%
+}
+
+body {
+    background: papayawhip;
+}
+
+header, footer, main {
+    padding: 20px;
+    border: 1px solid black; 
+    color: #141414;
+}
+
+.flex-container {
+    display: flex;
+}

@@ -9,10 +9,45 @@ html, body {
     width: 100%;
 }
 
+h2, h3 {
+    color: tomato; 
+    font-size: 50px;
+    line-height: 30px;
+}
+
+body {
+    background-color: rgb(187, 187, 187);
+    font-family:'Titillium Web', sans-serif;
+    color: darkcyan; 
+}
+
+.pullquote {
+    font-size: 30px;
+    line-height: 20px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
 .container {
     display: flex;
-    background: tomato;
-    flex-direction: column;
+    margin: 25px;
+    justify-content: space-between;
+}
+
+.left {
+    background-color: white;
+    width: 80%;
+    border: 6px solid darkcyan;
+}
+
+.right {
+    background-color: white;
+    width: 45%;
+    border: 6px solid darkcyan;
+}
+
+section {
+    padding: 30px;
 }
 
 header, footer {
@@ -27,11 +62,11 @@ main {
 }
 
 section {
-    width: 60%;
+    width: 50%;
     background: blue;
 }
 aside {
-    width: 40%;
+    width: 50%;
     background: green;
 }
 
