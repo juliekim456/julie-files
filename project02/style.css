@@ -88,8 +88,8 @@ img {
     overflow: hidden;
     box-sizing: border-box; 
     display: block;
-    max-width: 1fr;
-    max-height: 1fr;
+    max-width: fit-content;
+    max-height: fit-content;
 } 
 .box2:hover .img_description {
     visibility: visible;
