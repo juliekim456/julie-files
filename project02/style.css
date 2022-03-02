@@ -24,7 +24,7 @@ h4 {
 }
 
 body {
-    background-color: whitesmoke;
+    background-color: white;
     color: darkcyan;
     text-align: center;
     font-size: 20px;
@@ -32,21 +32,21 @@ body {
 }
 
 .wrapper {
-    border: 1px;
+    border: 0px;
     border-radius: 10px;
-    background-color: whitesmoke;
+    background-color: white;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 5px;
-    row-gap: 2em;
+    column-gap: 5em;
+    row-gap: 5em;
     padding: 50px;
     margin: 10px;
     justify-items: center;
   } 
 
 img {
-      max-width: 100%;
-      max-height: 100%;
+      max-width: fit-content;
+      max-height: fit-content;
   }
   
 .box1 {
@@ -70,8 +70,8 @@ img {
     opacity: 0;
     display: block;
     font-size: 30px;
-    padding: 10px;
-    padding-top: 90px;
+    padding: 100px;
+    padding-top: 200px;
     font-family: 'Permanent Marker', cursive;
 
 
@@ -88,8 +88,8 @@ img {
     overflow: hidden;
     box-sizing: border-box; 
     display: block;
-    max-width: fit-content;
-    max-height: fit-content;
+    max-width: 1fr;
+    max-height: 1fr;
 } 
 .box2:hover .img_description {
     visibility: visible;
