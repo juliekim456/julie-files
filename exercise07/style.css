@@ -1,0 +1,62 @@
+body {
+    background-color: whitesmoke;
+}
+
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column; 
+    height: 90vh; 
+    width: 100%; 
+}
+
+main { 
+    display: block;
+}
+
+.poem {
+    display: flex; 
+    flex-direction: row;
+    justify-content: left;
+    line-height: 98%;
+    font-family: 'Noto Serif Display', serif;
+    font-size: 6em; 
+    position: static; 
+}
+
+.navigation {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between;
+    height: 60px; 
+    font-family: 'Noto Serif Display', serif;
+    position: static; 
+}
+
+.poem, footer {
+    padding: 5px; 
+}
+
+footer { 
+    display: block;
+}
+
+.refresh {
+    font-size: 20px;
+    width: 30%; 
+    text-align: left;
+    line-height: 60px;
+}
+
+.home {
+    font-size: 20px;
+    width: 30%;
+    text-align: right;
+    line-height: 60px;
+}
+
