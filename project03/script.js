@@ -261,23 +261,27 @@ const textures = [
     },
   ];
 
-  const ul = document.querySelector('ul')
+  const ul = document.querySelector('ul');
 
    // RENDER TEXTURES TO WEBPAGE
 
   function renderTexturesToPage(textures){
-    for(i=0; 1 < textures.length; i++){
+    for(let i=0; i < textures.length; i++){
         let list_item = document.createElement("li");
+        list_item.classList.add(textures[i].color, "card");
 
         // texture name
         let title = document.createElement("h4");
         title.textContent = textures[i].name;
+
         // texture color
         let color = document.createElement("p");
         color.textContent = textures[i].color;
-        // textualigre image
+        color.classList.add(textures[i].color);
+
+        // texture image
         let image = document.createElement("img");
-        image.setAttribute("src", textures[i].image)
+        image.setAttribute("src", textures[i].image);
 
         ul.appendChild(list_item)
         list_item.appendChild(title)
@@ -286,8 +290,37 @@ const textures = [
     }
   }
 
-  renderTexturesToPage(textures)
+  renderTexturesToPage(textures);
 
   // FILTER TEXTURES BY COLOR
 
-  const filterBtns = document.querySelector('.filters')
+  let filterBtns = document.querySelector(".filters");
+  let cards = document.querySelectorAll(".card");
+
+  function filterFn(event) {
+    console.log('clicked', event.target);
+
+if(event.target.classList.contains("filter-btn")){
+
+  filterBtns.querySelector(".active").classList.remove("active");
+  event.target.classList.add("active");
+  
+  const filterValue = event.target.getAttribute("data-filter");
+
+  console.log('clicked', filterValue)
+
+  for(let i = 0; i < cards.length; i++){
+    if(cards[i].classList.contains(filterValue) || filterValue === "all"){
+
+      cards [i].classList.remove("hide");
+      cards [i].classList.add("show");
+    } else {
+      cards [i].classList.remove("show");
+      cards [i].classList.add("hide");
+    }
+  }
+}
+
+}
+
+  filterBtns.addEventListener('click', filterFn);
