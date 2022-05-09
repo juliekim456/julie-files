@@ -259,6 +259,251 @@ const textures = [
       color: "brown",
       image: "https://res.cloudinary.com/duqpl2rsg/image/upload/v1652066731/Images%20for%20project%203/br22_von9jv.jpg"
     },
+    {
+      name: "Green 1",
+      color: "green",
+      image: "https://res.cloudinary.com/duqpl2rsg/image/upload/v1652066741/Images%20for%20project%203/g1_qzvwpm.jpg"
+    },
+    {
+      name: "Green 2",
+      color: "green",
+      image: "https://res.cloudinary.com/duqpl2rsg/image/upload/v1652066742/Images%20for%20project%203/g2_qbjnmw.jpg"
+    },
+    {
+      name: "Green 3",
+      color: "green",
+      image: "https://res.cloudinary.com/duqpl2rsg/image/upload/v1652066742/Images%20for%20project%203/g3_fz47df.jpg"
+    },
+    {
+      name: "Green 4",
+      color: "green",
+      image: "https://res.cloudinary.com/duqpl2rsg/image/upload/v1652066742/Images%20for%20project%203/g4_jeofpo.jpg"
+    },
+    {
+      name: "Green 5",
+      color: "green",
+      image: "https://res.cloudinary.com/duqpl2rsg/image/upload/v1652066741/Images%20for%20project%203/g5_ds7j1i.jpg"
+    },
+    {
+      name: "Green 6",
+      color: "green",
+      image: "https://res.cloudinary.com/duqpl2rsg/image/upload/v1652066742/Images%20for%20project%203/g6_mijt3a.jpg"
+    },
+    {
+      name: "Green 7",
+      color: "green",
+      image: "https://res.cloudinary.com/duqpl2rsg/image/upload/v1652066742/Images%20for%20project%203/g7_ae9u0f.jpg"
+    },
+    {
+      name: "Green 8",
+      color: "green",
+      image: "https://res.cloudinary.com/duqpl2rsg/image/upload/v1652066742/Images%20for%20project%203/g8_zvg70g.jpg"
+    },
+    {
+      name: "Green 9",
+      color: "green",
+      image: "https://res.cloudinary.com/duqpl2rsg/image/upload/v1652066742/Images%20for%20project%203/g9_jdduq6.jpg"
+    },
+    {
+      name: "Green 10",
+      color: "green",
+      image: "https://res.cloudinary.com/duqpl2rsg/image/upload/v1652066742/Images%20for%20project%203/g10_opqjiz.jpg"
+    },
+    {
+      name: "Green 11",
+      color: "green",
+      image: "https://res.cloudinary.com/duqpl2rsg/image/upload/v1652066742/Images%20for%20project%203/g11_omep6b.jpg"
+    },
+    {
+      name: "Grey 1",
+      color: "grey",
+      image: "https://res.cloudinary.com/duqpl2rsg/image/upload/v1652066748/Images%20for%20project%203/gr1_ylpsg7.jpg"
+    },
+    {
+      name: "Grey 2",
+      color: "grey",
+      image: "https://res.cloudinary.com/duqpl2rsg/image/upload/v1652066748/Images%20for%20project%203/gr2_bkvqah.jpg"
+    },
+    {
+      name: "Grey 3",
+      color: "grey",
+      image: "https://res.cloudinary.com/duqpl2rsg/image/upload/v1652066748/Images%20for%20project%203/gr3_wzkldx.jpg"
+    },
+    {
+      name: "Grey 4",
+      color: "grey",
+      image: "https://res.cloudinary.com/duqpl2rsg/image/upload/v1652066748/Images%20for%20project%203/gr4_q3sjws.jpg"
+    },
+    {
+      name: "Grey 5",
+      color: "grey",
+      image: "https://res.cloudinary.com/duqpl2rsg/image/upload/v1652066748/Images%20for%20project%203/gr5_pdqsch.jpg"
+    },
+    {
+      name: "Grey 6",
+      color: "grey",
+      image: "https://res.cloudinary.com/duqpl2rsg/image/upload/v1652066749/Images%20for%20project%203/gr6_sbofup.jpg"
+    },
+    {
+      name: "Grey 6",
+      color: "grey",
+      image: "https://res.cloudinary.com/duqpl2rsg/image/upload/v1652066749/Images%20for%20project%203/gr6_sbofup.jpg"
+    },
+    {
+      name: "Grey 7",
+      color: "grey",
+      image: "https://res.cloudinary.com/duqpl2rsg/image/upload/v1652066748/Images%20for%20project%203/gr7_faqy5m.jpg"
+    },
+    {
+      name: "Grey 8",
+      color: "grey",
+      image: "https://res.cloudinary.com/duqpl2rsg/image/upload/v1652066748/Images%20for%20project%203/gr8_h9zctw.jpg"
+    },
+    {
+      name: "Grey 9",
+      color: "grey",
+      image: "https://res.cloudinary.com/duqpl2rsg/image/upload/v1652066749/Images%20for%20project%203/gr9_vlps4c.jpg"
+    },
+    {
+      name: "Grey 10",
+      color: "grey",
+      image: "https://res.cloudinary.com/duqpl2rsg/image/upload/v1652066749/Images%20for%20project%203/gr10_qkm2qg.jpg"
+    },
+    {
+      name: "Grey 11",
+      color: "grey",
+      image: "https://res.cloudinary.com/duqpl2rsg/image/upload/v1652066749/Images%20for%20project%203/gr11_cica92.jpg"
+    },
+    {
+      name: "Grey 12",
+      color: "grey",
+      image: "https://res.cloudinary.com/duqpl2rsg/image/upload/v1652066747/Images%20for%20project%203/gr12_xcrqkb.jpg"
+    },
+    {
+      name: "Grey 13",
+      color: "grey",
+      image: "https://res.cloudinary.com/duqpl2rsg/image/upload/v1652066747/Images%20for%20project%203/gr13_j12px5.jpg"
+    },
+    {
+      name: "Grey 14",
+      color: "grey",
+      image: "https://res.cloudinary.com/duqpl2rsg/image/upload/v1652066747/Images%20for%20project%203/gr14_qd2vth.jpg"
+    },
+    {
+      name: "Grey 15",
+      color: "grey",
+      image: "https://res.cloudinary.com/duqpl2rsg/image/upload/v1652066747/Images%20for%20project%203/gr15_zkzzgn.jpg"
+    },
+    {
+      name: "Grey 16",
+      color: "grey",
+      image: "https://res.cloudinary.com/duqpl2rsg/image/upload/v1652066747/Images%20for%20project%203/gr16_mna8wf.jpg"
+    },
+    {
+      name: "Grey 17",
+      color: "grey",
+      image: "https://res.cloudinary.com/duqpl2rsg/image/upload/v1652066747/Images%20for%20project%203/gr17_o7itze.jpg"
+    },
+    {
+      name: "Grey 18",
+      color: "grey",
+      image: "https://res.cloudinary.com/duqpl2rsg/image/upload/v1652066747/Images%20for%20project%203/gr18_oogrya.jpg"
+    },
+    {
+      name: "Grey 19",
+      color: "grey",
+      image: "https://res.cloudinary.com/duqpl2rsg/image/upload/v1652066747/Images%20for%20project%203/gr19_ql9uqw.jpg"
+    },
+    {
+      name: "Grey 20",
+      color: "grey",
+      image: "https://res.cloudinary.com/duqpl2rsg/image/upload/v1652066748/Images%20for%20project%203/gr20_a4e3yd.jpg"
+    },
+    {
+      name: "Grey 21",
+      color: "grey",
+      image: "https://res.cloudinary.com/duqpl2rsg/image/upload/v1652066748/Images%20for%20project%203/gr21_vz7iw6.jpg"
+    },
+    {
+      name: "Grey 22",
+      color: "grey",
+      image: "https://res.cloudinary.com/duqpl2rsg/image/upload/v1652066748/Images%20for%20project%203/gr22_wk0yl7.jpg"
+    },
+    {
+      name: "Red 1",
+      color: "red",
+      image: "https://res.cloudinary.com/duqpl2rsg/image/upload/v1652066754/Images%20for%20project%203/r1_yh4imp.jpg"
+    },
+    {
+      name: "Red 2",
+      color: "red",
+      image: "https://res.cloudinary.com/duqpl2rsg/image/upload/v1652066754/Images%20for%20project%203/r2_v1lonz.jpg"
+    },
+    {
+      name: "Red 3",
+      color: "red",
+      image: "https://res.cloudinary.com/duqpl2rsg/image/upload/v1652066754/Images%20for%20project%203/r3_gmrkyq.jpg"
+    },
+    {
+      name: "Red 4",
+      color: "red",
+      image: "https://res.cloudinary.com/duqpl2rsg/image/upload/v1652066754/Images%20for%20project%203/r4_zwpuvf.jpg"
+    },
+    {
+      name: "Red 5",
+      color: "red",
+      image: "https://res.cloudinary.com/duqpl2rsg/image/upload/v1652066754/Images%20for%20project%203/r5_hezzrz.jpg"
+    },
+    {
+      name: "Red 6",
+      color: "red",
+      image: "https://res.cloudinary.com/duqpl2rsg/image/upload/v1652066753/Images%20for%20project%203/r6_wrg66p.jpg"
+    },
+    {
+      name: "Red 7",
+      color: "red",
+      image: "https://res.cloudinary.com/duqpl2rsg/image/upload/v1652066754/Images%20for%20project%203/r7_mzth5u.jpg"
+    },
+    {
+      name: "Sky 1",
+      color: "sky",
+      image: "https://res.cloudinary.com/duqpl2rsg/image/upload/v1652066758/Images%20for%20project%203/s1_e68xce.jpg"
+    },
+    {
+      name: "Sky 2",
+      color: "sky",
+      image: "https://res.cloudinary.com/duqpl2rsg/image/upload/v1652066759/Images%20for%20project%203/s2_rx74ec.jpg"
+    },
+    {
+      name: "Sky 3",
+      color: "sky",
+      image: "https://res.cloudinary.com/duqpl2rsg/image/upload/v1652066759/Images%20for%20project%203/s3_izwp1s.jpg"
+    },
+    {
+      name: "Sky 4",
+      color: "sky",
+      image: "https://res.cloudinary.com/duqpl2rsg/image/upload/v1652066758/Images%20for%20project%203/s4_rawbgg.jpg"
+    },
+    {
+      name: "Sky 5",
+      color: "sky",
+      image: "https://res.cloudinary.com/duqpl2rsg/image/upload/v1652066758/Images%20for%20project%203/s5_g6vel2.jpg"
+    },
+    {
+      name: "Sky 6",
+      color: "sky",
+      image: "https://res.cloudinary.com/duqpl2rsg/image/upload/v1652066758/Images%20for%20project%203/s6_rcdooq.jpg"
+    },
+    {
+      name: "Sky 7",
+      color: "sky",
+      image: "https://res.cloudinary.com/duqpl2rsg/image/upload/v1652066758/Images%20for%20project%203/s7_gjggsr.jpg"
+    },
+    {
+      name: "Sky 8",
+      color: "sky",
+      image: "https://res.cloudinary.com/duqpl2rsg/image/upload/v1652066758/Images%20for%20project%203/s8_l1d7qp.jpg"
+    },
   ];
 
   const ul = document.querySelector('ul');
